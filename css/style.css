@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+    a{
+        text-decoration: none;
+    }
+img{
+    vertical-align: middle;
+}
+.clr{
+    clear: both;
+}
+ 
+.menu_head{
+    height: 60px;
+    background-color: rgba(2, 145, 140,0.5);
+    
+}
+.container{
+    width: 1170px;
+    margin: 0 auto; 
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.logo img{
+    padding-top: 19px;
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+.menu ul{
+  text-align: end;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    padding: 0 25px;
+    line-height: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+}
+.menu ul li a:hover{
+    color: rgb(204, 204, 58);
+}
+
+/*==========banner part start===========*/
+#banner{
+    background: url(../images/banner1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 210px 0 210px 0;
+}
+.banner_text{
+    text-align: center;
+    color: whitesmoke;
+}
+.banner_text h3{
+    font-size: 25pxs;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    margin-left: 120px;
+}
+.banner_text h1{
+    font-size: 64px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    margin-left: 150px;
+}
+.banner_text h5{
+    margin-left: 130px;
+}
+.aro {
+    text-align: center;
+}
+.aro img{
+    padding: 25px 0 30px 0;
+    margin-left: 120px;
+}
+.btn{
+    text-align: center;
+    padding-top: 20px;
+}
+.btn a{
+    color: black;
+    background-color: yellowgreen;
+    padding: 15px 20px;
+    margin-left: 130px;
+}
+.btn a:hover{
+    background-color: gainsboro;
+}
+/*===========bannaer part end===========*/
+
+/* =======ABOUT part start=======================*/
+#about{
+    padding: 100px 0;
+}
+.about_main{
+    text-align: center;
+    color: #02918c;
+    
+}
+.about_main h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+.about_main p{
+    padding: 25px 130px 60px 130px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.about_main p b{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800; 
+}
+.about_text{
+    width: 24.5%;
+    text-align: center;
+    padding-top: 30px;
+    float: left;
+    border-right: 2px solid #02918c ;
+    color: #02918c;
+}
+.border_right{
+    border-right: none;
+}
+.about_text i{
+    font-size: 30px;
+}
+.about_text h3{
+    padding: 27px 0;
+}
+.about_text p{
+padding: 0px 25px;
+}
+
+
+/*==========service part start===========================*/
+#service{
+ background: url(../images/second.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding: 70px 0 80px 0;
+}
+.service_all{
+    width: 50%;
+}
+.service_main{
+    font-family: 'Open Sans', sans-serif;
+    color: #02918c;
+}
+.service_main h5{
+    padding: 15px 0;
+}
+.service_text{
+    width: 50%;
+    padding-top: 50px;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #02918c;
+}
+.service_text i{
+font-size: 30px;
+padding-bottom: 5px;
+}
+.service_text h3{
+    padding: 10px 0;
+}
+.service_text h6{
+    padding-right: 40%;
+}
+/*service part end=============*/
+
+/*work part start============*/
+#work{
+    padding: 100px 0;
+    width: 100%;
+}
+.work_text{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #02918c;
+}
+.work_text h1{
+    padding-bottom: 10px;
+}
+.work_text p{
+    padding: 15px 300px 80px 300px;
+}
+.work_img{
+    width: 25%;
+    float: left;
+    position: relative;
+}
+.work_img img{
+    width: 100%;
+}
+.work_overlay{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    height: 80%;
+    width: 80%;
+    background-color: #148680;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.work_img:hover .work_overlay{
+    opacity: 1;
+}
+.work_overlay h3{
+    text-align: center;
+    padding-top: 65px;
+}
+.work_overlay h6{
+    text-align: center;
+    padding: 25px 80px;
+    font-size: 12px;
+}
+.contact_main{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.contact_main h1{
+    padding-bottom: 20px;
+}
+.contact_main p{
+    padding: 20px 300px 50px 300px;
+}
+#form{
+    padding: 60px 0;
+    background-color: #0b0b0b;
+}
+.form_text{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.form_text .name_email{
+    font-size: 16px;
+    color: gray;
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    margin-bottom: 40px;
+    padding: 20px 290px;
+}
+.form_text textarea{
+    font-size: 16px;
+    color: gray;
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    margin-top: 30px;
+    padding: 0 350px;
+}
+.form_text textarea {
+    font-size: 16px;
+    color: gray;
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    margin-top: 30px;
+    padding: 20px 350px;
+}
+.submit{
+    background: #cfc91d;
+    color: #000;
+    font-size: 16px;
+    border: none;
+    padding: 20px 65px;
+    letter-spacing: 5px;
+    margin-top: 70px;
+    transition: .4s;
+}
+.submit:hover{
+    background: #02918c;
+    color: black;
+}
+#ftp{
+    padding: 30px 0;
+    background-color: #000000;
+}
+.lst{
+    text-align: center;
+    color: blanchedalmond;
+}
